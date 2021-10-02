@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import { createStore } from "redux";
 import { Provider } from "react-redux";
 import reportWebVitals from "./reportWebVitals";
-import counterReducer from "./reducers/counterReducer";
+import counterReducer from "./store/reducers/counterReducer";
 import "./index.css";
 import App from "./App";
 
